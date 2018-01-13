@@ -1,0 +1,73 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "nif",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "address",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "postalCode4",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "postalCode3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "activity",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cae",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "phone",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "website",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "fax",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "region",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "county",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parish",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180106191915",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "contact",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pager",
+    "microserviceName": "contact",
+    "searchEngine": "elasticsearch"
+}
